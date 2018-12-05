@@ -3,22 +3,42 @@
 <head>
 <title>Love2D-Webplayer</title>
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<link rel="stylesheet" href="../style.css" type="text/css">
+
+<script type="text/javascript" src="../js/lua-parser.js"		></script>
+<script type="text/javascript" src="../js/lua-parser-utils.js"	></script>
+<script type="text/javascript" src="../js/gamepad.js"      ></script>
+<script type="text/javascript" src="../js/jquery.js"      ></script>
+<script type="text/javascript" src="../js/jquery.hotkeys.js"      ></script>
+<script type="text/javascript" src="../js/utils.js"			></script>
+<script type="text/javascript" src="../js/utils.webgl.js"		></script>
+<script type="text/javascript" src="../js/love.render.js"		></script>
+<script type="text/javascript" src="../js/main.js"			></script>
+
+<script type="text/javascript" src="../js/love.audio.js"		></script>
+<script type="text/javascript" src="../js/love.event.js"		></script>
+<script type="text/javascript" src="../js/love.filesystem.js"	></script>
+<script type="text/javascript" src="../js/love.font.js"		></script>
+<script type="text/javascript" src="../js/love.graphics.js"	></script>
+<script type="text/javascript" src="../js/love.image.js"		></script>
+<script type="text/javascript" src="../js/love.joystick.js"	></script>
+<script type="text/javascript" src="../js/love.keyboard.js"	></script>
+<script type="text/javascript" src="../js/love.mouse.js"		></script>
+<script type="text/javascript" src="../js/Box2dWeb-2.1.a.3.min.js"	></script>
+<script type="text/javascript" src="../js/love.physics.js"	></script>
+<script type="text/javascript" src="../js/love.sound.js"		></script>
+<script type="text/javascript" src="../js/love.thread.js"		></script>
+<script type="text/javascript" src="../js/love.timer.js"		></script>
+
+<script type="text/javascript">gShaderCode_Fragment = LoadShaderCode("../js/fragment.shader");</script>
+<script type="text/javascript">gShaderCode_Vertex   = LoadShaderCode("../js/vertex.shader");</script>
+
 </head>
-<body>
-<a href="clouds/">demo:clouds</a><br>
-<a href="iyfct/">demo:in your face city trains</a><br>
-<a href="sinescroller/">demo:sinescroller</a><br>
-<a href="no/">demo:no</a><br>
-<a href="devmania2011/">demo:devmania2011:PirateBay</a><br>
-<a href="ludumdare201204/">ludumdare201204</a><br>
-<a href="ludumdare201208/">ludumdare201208</a><br>
-<a href="devmania2012veh/">devmania2012veh</a><br>
-<a href="josefnpat-1942gb_v1.0/">demo:josefnpat-1942gb_v1.0</a><br>
-<a href="mytest/">mytest</a><br>
-<a href="maptest/">maptest</a><br>
-<a href="mari0_1.6/">demo:mari0_1.6 (doesn't work yet)</a><br>
-<a href="http://sience.schattenkind.net/love2d/">..more demos.. (sience)</a><br>
-<a href="http://fireblend.github.com/love-web/DaH/">..another ludumdare 23 entry using webplayer...</a><br>
-<a href="trubble/">trubble/</a><br>
-<a href="trubble/tests/">trubble/test/2</a><br>
+<body onload="MainOnLoad(['body.png','cloud_plain.png','ear.png','face.png','love.png'])">
+<a href="https://github.com/ghoulsblade/love-webplayer">Love2D-Webplayer</a><br>
+<canvas id="glcanvas" width="800" height="600">  
+Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.  
+</canvas>
+<div id="output" style="font-family: Courier New,Courier,monospace;"></div>
 </body></html>

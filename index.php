@@ -3,6 +3,7 @@
 //~ error_reporting(-1);
 // CONFIG
 define("IMAGE_TYPES","png,jpg,gif");
+
 // STOP CONFING'IN
 function glob_recursive($pattern, $flags = 0){//http://www.php.net/manual/en/function.glob.php#106595
   $files = glob($pattern, $flags);
@@ -11,6 +12,7 @@ function glob_recursive($pattern, $flags = 0){//http://www.php.net/manual/en/fun
   }
   return $files;
 }
+
 ?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
   <head>

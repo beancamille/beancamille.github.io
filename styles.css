@@ -1,0 +1,24 @@
+body
+{
+    text-align:center;
+    background-color:#ffccdd;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;  
+}
+
+header
+{
+    color:#ff1a66;
+    font-size: x-large;
+}
+
+sub-header
+{
+    color:#ff6699;
+    font-size: large;
+}
+
+main
+{
+    color:#ff1a66;
+    font-size: medium;
+}
